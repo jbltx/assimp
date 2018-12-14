@@ -545,6 +545,11 @@ ADD_ASSIMP_IMPORTER( FBX
   FBXCommon.h
 )
 
+ADD_ASSIMP_IMPORTER( FLT
+  FLTImporter.cpp
+  FLTImporter.h
+)
+
 SET( PostProcessing_SRCS
   CalcTangentsProcess.cpp
   CalcTangentsProcess.h
